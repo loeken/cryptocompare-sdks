@@ -1,0 +1,15 @@
+Package: openapi
+Title: R Package Client for CryptoCompare Market, Index, Reference Data, News and Overview Metrcis API for the Cryptocurrency Industry
+Version: 1.0.0
+Author: person("API Support", email = "data@cryptocompare.com", role = c("aut", "cre"))
+Maintainer: API Support <data@cryptocompare.com>
+Description: CryptoCompare is the world's leading digital asset data company, providing services that cater to corporate, government and retail clients. Our main reference index is widely recognized as a reliable benchmark, and we have been authorized by the Financial Conduct Authority (FCA) in the United Kingdom to operate as a benchmark administrator. In addition to catering to corporate, government, and retail clients, we offer a range of services including comprehensive market data for cryptocurrency exchanges in both the centralized and decentralized finance sectors, as well as individual asset data on custodians, supported platforms, and privacy solutions. Our offerings include price, volume, trade, and orderbook updates, as well as historical OHLCV data.
+URL: https://github.com/GIT_USER_ID/GIT_REPO_ID
+BugReports: https://github.com/GIT_USER_ID/GIT_REPO_ID/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: CryptoCompare API License Agreement
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, base64enc, stringr
+RoxygenNote: 7.2.1

@@ -1,0 +1,24 @@
+package org.openapitools.client.api
+
+import argonaut._
+import argonaut.EncodeJson._
+import argonaut.DecodeJson._
+
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.argonaut._
+import org.joda.time.DateTime
+
+
+import SPOTINSTRUMENTMARKETDATARESPONSE._
+
+case class SPOTINSTRUMENTMARKETDATARESPONSE (
+  data: Option[Map[String, SPOTINSTRUMENTMARKETDATA]],
+err: Option[SPOTINSTRUMENTMARKETDATARESPONSEErr])
+
+object SPOTINSTRUMENTMARKETDATARESPONSE {
+  import DateTimeCodecs._
+
+  implicit val SPOTINSTRUMENTMARKETDATARESPONSECodecJson: CodecJson[SPOTINSTRUMENTMARKETDATARESPONSE] = CodecJson.derive[SPOTINSTRUMENTMARKETDATARESPONSE]
+  implicit val SPOTINSTRUMENTMARKETDATARESPONSEDecoder: EntityDecoder[SPOTINSTRUMENTMARKETDATARESPONSE] = jsonOf[SPOTINSTRUMENTMARKETDATARESPONSE]
+  implicit val SPOTINSTRUMENTMARKETDATARESPONSEEncoder: EntityEncoder[SPOTINSTRUMENTMARKETDATARESPONSE] = jsonEncoderOf[SPOTINSTRUMENTMARKETDATARESPONSE]
+}

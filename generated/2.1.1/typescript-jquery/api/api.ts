@@ -1,0 +1,13 @@
+export * from './AssetApi';
+import { AssetApi } from './AssetApi';
+export * from './FuturesApi';
+import { FuturesApi } from './FuturesApi';
+export * from './NewsApi';
+import { NewsApi } from './NewsApi';
+export * from './OverviewApi';
+import { OverviewApi } from './OverviewApi';
+export * from './ReferenceRatesApi';
+import { ReferenceRatesApi } from './ReferenceRatesApi';
+export * from './SpotApi';
+import { SpotApi } from './SpotApi';
+export const APIS = [AssetApi, FuturesApi, NewsApi, OverviewApi, ReferenceRatesApi, SpotApi];

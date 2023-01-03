@@ -1,0 +1,13 @@
+export * from './asset.service';
+import { AssetService } from './asset.service';
+export * from './futures.service';
+import { FuturesService } from './futures.service';
+export * from './news.service';
+import { NewsService } from './news.service';
+export * from './overview.service';
+import { OverviewService } from './overview.service';
+export * from './referenceRates.service';
+import { ReferenceRatesService } from './referenceRates.service';
+export * from './spot.service';
+import { SpotService } from './spot.service';
+export const APIS = [AssetService, FuturesService, NewsService, OverviewService, ReferenceRatesService, SpotService];

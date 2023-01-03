@@ -1,0 +1,13 @@
+.openapi-generator-ignore
+AssetApi.csv
+AssetApi.jmx
+FuturesApi.csv
+FuturesApi.jmx
+NewsApi.csv
+NewsApi.jmx
+OverviewApi.csv
+OverviewApi.jmx
+ReferenceRatesApi.csv
+ReferenceRatesApi.jmx
+SpotApi.csv
+SpotApi.jmx

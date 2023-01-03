@@ -1,0 +1,17 @@
+.gitignore
+.openapi-generator-ignore
+Api.ts
+AssetApi.ts
+AuthStorage.ts
+FuturesApi.ts
+NewsApi.ts
+OverviewApi.ts
+README.md
+ReferenceRatesApi.ts
+SpotApi.ts
+git_push.sh
+index.ts
+models.ts
+package.json
+tsconfig.json
+tslint.json
